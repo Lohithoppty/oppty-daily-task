@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+           <title>Detailed Registration Form</title>
+           <style>
+            body{
+                background-color:lightgrey;
+            }
+            form{background-color:lightsteelblue;
+                width: 600px;
+                margin: 30px auto;
+                padding: 20px;
+                border: 1px solid black;
+                border-radius: 8px;
+                font-family: Arial, sans-serif;
+            }
+            label{
+                display: block;
+                margin-top: 10px;
+                font-weight: bold;
+            }
+            input,select{
+                width: 90%;
+                padding: 8px;
+                border-radius: 4px;
+                margin-top: 5px;
+            }
+            .skills-group{
+                margin-top: 10px;
+            }
+            .skills{
+                margin-bottom: 10px;
+            }
+            button{
+                margin-top: 20px;
+                padding: 10px;
+                width: 100%;
+                background-color: #4CAF50;
+                color:black;
+                border: none;
+                border-radius: 4px;
+                font-size: 24px;
+            }
+            
+           </style>
+    </head>
+    <body>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <h2>Registration Form</h2>
+            <!--Personal Information-->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <!--Education-->
+            <label for="degree">Degree:</label>
+            <input type="text" id="degree" name="degree" required>
+
+            <label for="years">Years of study:</label>
+            <input type="number" id="years" name="years" min="1" max="10" required>
+
+            <label for="percentage">percentage:</label>
+            <input type="number" id="percentage" name="percentage" min="0" max="100" required>
+
+            <!--skills-->
+            <label>Skills:</label>
+            <div class="Skills-group">
+                <div class="Skill">
+                    <label><input type="checkbox" name="Skills" value="HTML">HTML</label>
+                    <input type="range" name="html-level" min="0" max="100">
+                </div>
+                <div class="skill">
+                    <label><input type="checkbox" name="skills" value="CSS">CSS</label>
+                    <input type="range" name="CSS-level" min="0" max="100">
+                </div>
+                <div class="skill">
+                    <label><input type="checkbox" name="skills" value="JavaScript">JavaScript</label>
+                    <input type="range" name="JS-level" min="0" max="100">
+                </div>
+            </div>
+            <!--Resume Upload-->
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+            <!--Declaration-->
+            <label>
+                <input type="checkbox" name="declaration" required>
+                I agree to the terms and conditions.
+            </label>
+            <!--Submit-->
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>

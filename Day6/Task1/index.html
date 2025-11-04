@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1> My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <a href="#blog">Blog</a>
+      <a href="#faq">FAQ</a>
+      <a href="#media">Media</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="Assets/profile.png" alt="profile" width="300" height="250"/>
+    <p>Hello! I'm a passionate web developer with a love for clean design and efficient code.</p>
+    <dl>
+      <dt>Name:</dt>
+      <dd>Lohith Natarga</dd>
+      <dt>Location:</dt>
+      <dd>Hyderabad, India</dd>
+      <dt>Experience:</dt>
+      <dd>3+ years in frontend development</dd>
+    </dl>
+  </section>
+
+  <!-- Projects Section (Table) -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Project Name</th>
+          <th>Description</th>
+          <th>Tech Stack</th>
+          <th>Year</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Portfolio Website</td>
+          <td>Personal branding site</td>
+          <td>HTML, CSS</td>
+          <td>2025</td>
+        </tr>
+        <tr>
+          <td>Task Manager</td>
+          <td>To-do list app</td>
+          <td>JavaScript, Firebase</td>
+          <td>2024</td>
+        </tr>
+        <tr>
+          <td>Blog Platform</td>
+          <td>Multi-user blogging system</td>
+          <td>React, Node.js</td>
+          <td>2023</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>HTML <progress value="90" max="100"></progress></p>
+    <p>CSS <progress value="85" max="100"></progress></p>
+    <p>JavaScript <progress value="80" max="100"></progress></p>
+    <p>React <progress value="75" max="100"></progress></p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <figure>
+      <picture>
+        <img src="Assets/card-3.png" alt="card-3" width="300" height="250" />
+        <img src="Assets/card-4.png" alt="card-4" width="300" height="250" />
+        <img src="Assets/card-5.png" alt="card-5" width="300" height="250" />
+      </picture>
+      <figcaption>Project Screenshot</figcaption>
+    </figure>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label>Name: <input type="text" name="name" required /></label><br /><br />
+      <label>Email: <input type="email" name="email" required /></label><br /><br />
+      <label>Phone: <input type="tel" name="phone" /></label><br /><br />
+      <label>Message:<br />
+        <textarea name="message" rows="5" cols="40"></textarea>
+      </label><br /><br />
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog">
+    <h2>Blog</h2>
+    <article>
+      <h3>Why I Love Web Development</h3>
+      <p>Web development allows me to combine creativity and logic to build amazing experiences.</p>
+    </article>
+    <aside>
+      <h4>Tip</h4>
+      <p>Always keep learning — the web evolves fast!</p>
+    </aside>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq">
+    <h2>FAQ</h2>
+    <details>
+      <summary>What services do you offer?</summary>
+      <p>I offer frontend development, UI/UX design, and website optimization.</p>
+    </details>
+    <details>
+      <summary>How can I hire you?</summary>
+      <p>Use the contact form above or email me directly.</p>
+    </details>
+  </section>
+
+  <!-- Media Section -->
+  <section id="media">
+    <h2>Media</h2>
+    <h3>Intro Video</h3>
+    <iframe width="560" height="315" src="Assets/intro.mp4" allowfullscreen></iframe>
+    <h3>Audio Intro</h3>
+    <audio controls>
+      <source src="Assets/audio.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Lohith Natarga</p>
+    <p>Hyderabad, India</p>
+    <p>Last updated: <time datetime="2025-10-21">October 21, 2025</time></p>
+  </footer>
+
+</body>
+</html>
