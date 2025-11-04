@@ -1,4 +1,3 @@
-
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #FFF8F8;
@@ -8,12 +7,18 @@ body {
 }
 
 /*  Navbar */
+.navbar{
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  z-index: 2;
+  background-color: #FFF8F8;
+ }
 .navbar {
   background-color:#FFF8F8;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  padding: 20px 10px;
+  padding: 20px 60px; 
  }
-
 .navbar-brand{
   font-size: 36px;
    color: #464646;
@@ -41,8 +46,6 @@ a.btn:hover{
   background: black;
   color: orangered;
 }
-
-
 
 /*  Hero Section */
 .move .btn1{
@@ -109,7 +112,8 @@ img .back {
   font-family: 'Roboto',sans-serif;
   color:#EEEEEE;
 }
-/* === Services Section === */
+
+/* Services Section */
 .third {
   background-color: whitesmoke;
   padding: 60px 0;
@@ -171,6 +175,8 @@ img .back {
 .third .content-center p {
   color: #333333;
 }
+
+/*project section*/
 .fourth{
   margin-top: 240px;
   padding: 60px 0;
@@ -213,6 +219,8 @@ h5 {
     width: 100%;
     border-radius: 15px;
 }
+
+/*pricing section*/
 .fifth .title h5 {
     color: #ff5252;
     margin-bottom: 10px;
@@ -295,6 +303,8 @@ ul li {
   background-color: #333;
   color: #fff;
 }
+
+/* testimonial section*/
 .sixth .testimonial {
     padding: 140px 0;
     background: linear-gradient(rgba(5, 4, 4, 0.69), rgba(5, 4, 4, 0.74)), url(Testimonal.png);
@@ -409,6 +419,8 @@ h5 {
     position: relative;
     transition-property: transform;
 }
+
+/*contact us section*/
 .seventh.contact {
     padding: 120px 0;
 }
@@ -434,18 +446,8 @@ p {
     line-height: 28px;
     letter-spacing: 0.5px;
 }
-.seventh ul {
-    padding: 0;
-    margin: 0;
-}
-.seventh.contact ul li {
-    display: inline-block;
-    padding: 0 5px;
-}
-ul li {
-    list-style: none;
-}
-.contact ul li i {
+
+.contact .logos li i {
     font-size: 20px;
     height: 35px;
     width: 35px;
@@ -453,4 +455,14 @@ ul li {
     color: #ffffff;
     line-height: 35px;
     border-radius: 50%;
+}
+.contact .logos {
+ margin-top: 30px;
+ display: flex;
+ gap: 10px;
+ margin-left: 420px;
+}
+.contact .logos i:hover{
+  background: #FF5252;
+  color: #fff;
 }
