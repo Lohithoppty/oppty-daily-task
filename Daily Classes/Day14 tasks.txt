@@ -1,0 +1,6 @@
+Task1: Light / Dark Mode theme
+1.Create a page with title light mode and Dark Mode (Add emoji if needed).
+2.When user click on Dark Mode, the page theme should change.
+
+Task 2: Use entities and Unicode and create a chess board using grid.
+Reference for unicode - https://www.w3schools.com/charsets/ref_utf_symbols.asp

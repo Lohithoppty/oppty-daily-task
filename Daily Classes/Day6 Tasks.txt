@@ -1,0 +1,14 @@
+Build a Portfolio Website (HTML only) with all concepts:
+•	Header → logo + nav links
+•	About Section → image, text, definition list
+•	Projects Section → use <table> to list projects
+•	Skills Section → use <progress> or <meter>
+•	Gallery → use <figure> + <figcaption> with <picture> for responsive images
+•	Contact Section → form (with all name, email, phone and message)
+•	Blog Section → use <article> and <aside>
+•	FAQ → use <details> + <summary>
+•	Media → embed YouTube + audio intro
+•	Footer → copyright + address + last updated <time>
+
+Task1:  Portfolio with Tables 
+Task2: Portfolio with Sematic elements

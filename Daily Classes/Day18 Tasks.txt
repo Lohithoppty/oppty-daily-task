@@ -1,0 +1,23 @@
+        Device	                                   Width
+ Phones (Small to Large)	       Min Widht: 320px to Max width: 600px;
+ Tablets (Small to large)	       Min width: 601px to Max-width:992px
+ Laptops (Small to large)	       Min-width: 993px to Max-width:1440px
+ Desktop (Small to large)	       Min-width: 1441px to 8k resolution
+
+ Task 1:
+ Create a webpage with 3 coloured boxes in a row.
+ •	Desktop: 3 in a row, 1 column
+ •	Tablet (<768px):2 in a row, 2 columns
+ •	Mobile (<480px): 1 in a row, 3 columns
+ Task 2:
+ Change the background color of the body for each device with:
+ •	Desktop: white
+ •	Tablet: lightyellow
+ •	Mobile: lightblue
+ Task3:
+ Add Media queries for orientation:
+ •	Landscape: background turns green
+ •	Portrait: background turns purple
+
+
+

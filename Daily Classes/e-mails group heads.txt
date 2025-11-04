@@ -1,0 +1,40 @@
+pranay.v@oppty.in
+prince@oppty.in
+sujana.k@oppty.in
+siddartha.b@oppty.in
+karthikeya@oppty.in
+shantipriya@oppty.in
+   Must-have (everyone installs)
+Editors & Browsers
+
+VS Code - https://code.visualstudio.com/
+
+Google Chrome (or Firefox Developer Edition)
+
+Version Control
+
+Git Desktop - https://desktop.github.com/download/
+
+GitHub account (sign in on the browser) - https://github.com/signup
+
+Design & assets
+
+Figma Desktop (viewer access is fine) - https://www.figma.com/downloads/
+
+VS Code extensions (install these)
+Live Server – quick local preview
+
+Prettier – Code Formatter – auto-format on save
+
+ESLint – JS linting
+
+Auto Rename Tag – HTML tag pairs
+
+HTML CSS Support
+send mail siddartha.b@oppty.in
+to
+Siddu Bhandekar
+shaikkhaja.m@oppty.in
+narendra.g@oppty.in
+cc 
+

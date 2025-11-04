@@ -1,0 +1,13 @@
+Practice Tasks:
+-	Create 3 overlapping boxes with different Z-index values.
+•	Try Swapping their z-index to see changes
+
+-	Make a card with a badge (New) in the top-right corner using position: absolute and z-index.
+
+
+-	Create a button that changes color on hover and darkens on active
+-	Highlight the first letter of every p tag with a larger font
+
+-	Style list items with alternating colors using nth child
+
+-	Add “👉” before each list item using a ::before

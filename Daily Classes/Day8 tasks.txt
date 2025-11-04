@@ -1,0 +1,9 @@
+Task 1: “Style Showcase” Page
+•	Inline CSS
+•	External CSS
+•	Internal CSS
+Goal: Create a single HTML page that demonstrates all three methods of applying CSS. Inline, internal and external to understand their purpose and differences.
+
+
+Task2: “Selector Playground” Page
+Goal: Build a small web page that demonstrates how different CSS selectors work and showing which elements get styled.

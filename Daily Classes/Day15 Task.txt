@@ -1,0 +1,1 @@
+Task1: Animation: FadeIn, FadeOut, ZoomIn, ZoomOut, BounceIn and BounceOut

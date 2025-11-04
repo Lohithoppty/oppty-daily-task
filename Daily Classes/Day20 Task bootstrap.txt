@@ -1,0 +1,12 @@
+ Task:
+     https://ngetemplates.com/fofana/
+  Bulid the above page using boostrap
+ 
+
+
+VS Code extensions (install these)
+Live Server – quick local preview
+
+Prettier – Code Formatter – auto-format on save
+
+ESLint – JS linting 

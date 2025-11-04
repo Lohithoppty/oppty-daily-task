@@ -1,0 +1,18 @@
+ task 1:
+ Build a portfolio page using these elements:
+        1. A header with your name and tagline.
+     2. A figure with your image + figcaption.
+3. A section called "My Skills" with:
+     1.A progress bar for skill levels(HTML,CSS,JS).
+     2.A meter showing confidence level(e.g.,0.8=80%).
+4.An audio player(insert background music or a short intro).
+5.A video player (insert an introduction video or placeholder).
+6.A footer with your contact <address>and <time> showing the " last updated" date.    
+
+task 2:
+
+Create an interactive FAQ pages using:
+    1.A details & summary elements for each FAQ.
+    2.An iframe that embeds a youtube video (like"learn HTML Basics").
+    3.A template section (hidden,but can be cloned later with JS).
+    4.A time element to show when the FAQ was "last updated".

@@ -1,0 +1,18 @@
+ Task 1: Registration Form
+ Create a Form With:
+ 1.Name,Email,password,Confirm Password.
+ 2.Gender.
+ 3.Hobbies.
+ 4.Country.
+ 5.Upload profile picture.
+ 6.submit.
+
+
+ Task 2:
+ Create a form with:
+  1.personal information(Name,Email,Phone,DOB).
+  2.education(degree,years,percentage).
+  3.Skills (checkboxes+range slider for skills level).
+  4.Uplaod Resume.
+  5.Declaration("I agree").
+  6.submit button.

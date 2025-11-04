@@ -1,0 +1,7 @@
+Task:
+•	Move a Box to x direction to 60px.
+•	Rotate on Hover 125deg
+•	Scale UP Button: Create a button that grows 20% larger when hovered and returns to normal smoothly.
+•	Create a circle that rotates 360deg and scales down slightly on hover.
+•	Make a shape move up and down continuously like it’s floating
+•	Create an image that zooms in and slightly rotates when hovered.

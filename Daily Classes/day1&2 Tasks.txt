@@ -1,0 +1,23 @@
+task:1
+1. basics: Tags,elements,Attributes.
+2.page structure:<!DOCTYPE>,<html>,<head>,<body>.
+3.textformating:headings,paragrahs,bold/italic,lists.
+4.links & images:<a>,<img>.
+5.Forms:<form>,input types,labels,textarea,buttons.
+6.tables & semantic elements(<header>,<footer>,<section>)
+
+
+task:2
+1.page title:My Profile.
+2.Use a header with your name in<h1> and a short tagline in<h3>.
+3.Add a navigation bar with links:Home,About,contact.
+4.insert an image (your photo or placeholder image).
+5.create an About Me section with a short paragraph.
+6.Add a list of your favorite skills(unordered list).
+7.Create a table with two columns:"Hobby"and"years practiced"fill atleast 2 rows.
+8.Add a form with:
+    1.Name(text input)
+    2.Email(email input)
+    3.Message(textarea)
+    4.Submit button
+9.End with a footer:"c 2025 Your name."  

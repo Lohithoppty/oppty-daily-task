@@ -1,0 +1,9 @@
+Task: 
+1.Fade-in and slide-up Card:
+Create a card that starts transparent and moving to certain pixels and animates to actual card on page load.
+2.Color Pulse Button:
+Create a 3 button  with 3 different color and when mouse hover is happened, change the background color to button color with smooth transition.
+3.Spinner on Button:
+Create a button and when user hover on it the spinner or loader will appear on the button.
+4.Card Flip:
+Create a flipping Card (Front/back) using Key Frames.

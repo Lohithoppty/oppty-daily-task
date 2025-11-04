@@ -1,0 +1,13 @@
+task 1:
+ Student Report Card:Create a table that shows 5 students with marks in 3 subjects
+       1.use thead,tbody & tfoot.
+       2.use'caption'.
+       3.Add an average column that uses 'colspan'for totals.
+
+
+task 2:
+    
+      Product pricing table:create a pricing comparison table for 3 products
+                  1.use'clogroup' to give each product column a different background color.
+                  2.Add a 'tfoot'row with'best value'label.   
+                  3.Add a 'caption'like 'product pricing 2025'. 
