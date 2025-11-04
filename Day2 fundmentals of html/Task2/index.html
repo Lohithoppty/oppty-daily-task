@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Porfile</title>
+        <style>
+            body {
+                background-color:lightgray;
+             font-family: arial,sans-serif;
+             margin: 20px;   
+            }
+            nav{
+                margin-right: 15px;
+                text-decoration: none;
+                
+            }
+            img {
+              max-width: 200px;
+              height: auto;
+              border-radius: 10px;
+            }
+            table,th,td {
+                border: 1px solid #333;
+                border-collapse: collapse ;
+                padding: 8px;
+            }
+            footer{
+                margin-top: 40px;
+                text-align: center;
+                font-size: 0.9em;
+                color: #666;
+            }
+        </style>
+    </head>
+    <body>
+        <!--header-->
+       <header>
+        <h1>Natarga Lohith</h1>
+        <h3>Web Developer & Tech Enthusiast</h3>
+       </header> 
+       <!--Navigation bar-->
+       <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+       </nav>
+       <!--Profile image-->
+       <section>
+        <h2>Profile Picture</h2>
+        <img src="assets/profile.png" alt="profile">
+       </section>
+       <!--About me-->
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I'm passionate about building web applications and exploring new technologies.  
+            I enjoy solving problems and creating user-friendly experiences.</p>
+    </section>
+    <!--Skills List-->
+    <section>
+        <h2>My Favorite Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>Javascript</li>
+            <li>Python</li>
+            <li>React</li>
+        </ul>
+    </section>
+    <!--Hobby table-->
+    <section>
+        <h2>My Hobbies</h2>
+        <table>
+            <tr>
+                <th>Hobby</th>
+                <th>Years Practiced</th>
+            </tr>
+            <tr>
+                <td>potography</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Gaming</td>
+                <td>5</td>
+            </tr>
+        </table>
+    </section>
+    <!--Contact Form-->
+    <section>
+        <h2>Contact Me</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="eamil">Email:</label><br>
+            <input type="email" id="eamil" name="email"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <!--footer-->
+    <footer>
+    <p>© 2025 Natarga Lohith.</p>
+    </footer>
+    </body>
+</html>
