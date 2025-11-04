@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Background</title>
+        <style>
+            
+            /* Default: Desktop(min-width:993px)*/
+            body{
+                margin: 0;
+                padding: 20px;
+                font-family: Arial, sans-serif;
+                background-color: white;
+            }
+            /* Tablet: 601px to 992px*/
+            @media (max-width:992px){
+                body{
+                    background-color: lightyellow;
+                }
+            }
+            /* Mobile: up to 600px*/
+            @media (max-width:600px){
+                body{
+                    background-color: lightblue;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Responsive Background Color</h1>
+        <p>Resize the browser window to see the background color change: </p>
+        <ui>
+            <li><strong>Desktop:</strong> White</li>
+            <li><strong>Tablet:</strong> Ligth Yellow</li>
+            <li><strong>Mobile:</strong> Light Blue</li>
+        </ui>
+    </body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pseudo-class selectors/z-index</title>
+        <style>
+            body {
+                background-color: lightcyan;              
+            }
+            h2{
+                text-align: center;
+            }
+           
+            /* overlapping boxes with z-index*/
+            .box-container{
+                position: relative;
+                height: 200px;
+                margin-bottom: 40px;
+            }
+            .box{
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                opacity: 0.8;
+            }
+             .box1{
+                background-color: red; top: 10px; left: 10px; z-index: 1;
+            }
+            .box2{
+                background-color: black; top: 10px; right: 10px; z-index: 2;
+            }
+            .box3{
+                background-color: green; top: 30px; left: 30px; z-index: 3;
+            }
+            .box4{
+                background-color: blue; top: 30px; right: 30px; z-index: 4;
+            }
+            .box5{
+                background-color: gold; top: 60px; left: 60px; z-index: 5;
+            }
+            .box6{
+                background-color: white; top: 60px; right: 60px; z-index: 6;
+            }
+            .box7{
+                background-color: purple; top: 90px; left: 90px; z-index: 7;
+            }
+            .box8{
+                background-color:  goldenrod; top: 90px; right: 90px; z-index: 8;
+            }
+            .box9{
+                background-color: skyblue; top: 110px; left: 110px; z-index: 9;
+            }
+            .box10{
+                background-color: lawngreen; top: 110px; right: 110px; z-index: 10;
+            }
+            .box11{
+                background-color: brown; top: 140px; left: 140px; z-index: 11;
+            }
+            .box12{
+                background-color: gray; top: 140px; right: 140px; z-index: 12;
+            }
+
+            /* Card with badge*/
+            .card{
+                position: relative;
+                width: 200px;
+                height: 100px;
+                border: 1px solid#0f0f0f;
+                padding: 20px;
+                margin-bottom: 40px;
+            }
+            .badge{
+                position: absolute;
+                top: 5px;
+                right: 5px;
+                background-color: orange;
+                color: white;
+                padding: 5px;
+                font-size: 12px;
+                border-radius: 5px;
+                z-index: 10;
+            }
+
+            /* button hover and active*/
+            .btn{
+                background-color: #3498db;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+                font-size: 16px;
+                margin-bottom: 40px;
+            }
+            .btn:hover{
+                background-color: olivedrab;
+            }
+            .btn:active{
+                background-color: goldenrod;
+            }
+
+            /*first letter styling*/
+            p::first-letter{
+                font-size: 200%;
+                font-weight: bold;
+                color: #e74c3c;
+            }
+
+            /* Altrinating list item colors*/
+            ul li:nth-child(odd){
+                background-color:white;
+            }
+            ul li:nth-child(even){
+                background-color: #dcdcdc;
+            }
+
+            /* add emoji before list items*/
+            ul li::before{
+                content: "👉 ";
+                margin-right: 5px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2>Overlapping Boxes</h2>
+        <div class="box-container">
+              <div class="box box1"></div>
+                <div class="box box2"></div>
+                <div class="box box3"></div>
+                <div class="box box4"></div>
+                <div class="box box5"></div>
+                <div class="box box6"></div>
+                <div class="box box7"></div>
+                <div class="box box8"></div>
+                <div class="box box9"></div>
+                <div class="box box10"></div>
+                <div class="box box11"></div>
+                <div class="box box12"></div>
+        </div>
+        <div class="box-container1">
+            <div class="box box13"></div>
+            <div class="box box14"></div>
+            <div class="box box15"></div>
+            <div class="box box16"></div>
+        </div>
+
+        <h2>Card with Badge</h2>
+        <div class="card">
+            <div class="badge">New</div>
+            This is a card with badge.
+        </div>
+
+        <h2>Interactive Button</h2>
+        <button class="btn">Click Me</button>
+
+        <h2>Paragraph Styling</h2>
+        <p>This is a paragraph with a styled first letter.</p>
+        <p>Another paragraph to test the effect.</p>
+        <p>Paragraph to test the letter.</p>
+        <p>Styled first letter and see the effect on browser.</p>
+        <p>Element to show the first letter big-font-size.</p>
+        <p>Color effect on all the paragraph's first letter in ligth-red.</p>
+
+        <h2>Styled List</h2>
+        <ul>
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+            <li>Fourth Item</li>
+            <li>Fifth Item</li>
+        </ul>
+
+    </body>
+</html>

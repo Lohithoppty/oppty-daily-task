@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Boxes</title>
+        <style>
+          body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+          }
+          .container {
+            display: grid;
+            gap: 20px;
+          }
+          .box{
+            height: 150px;
+            color: white;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .box1 {
+             background-color: #e74c3c;
+            }
+          .box2 { 
+            background-color: #3498db;
+        }
+          .box3 { 
+            background-color: #2ecc71;
+        }
+
+          /* Desktop: 3 in a row*/
+          @media (min-width: 1441px)  {
+               .container {
+                grid-template-columns: repeat(3, 1fr);
+               }
+          }
+          /*laptops and tablets: 2 in row*/
+          @media (max-width: 768px) {
+                .container {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+          }
+          /*mobile: 1 in row*/
+          @media (max-width: 480px) {
+                .container {
+                    grid-template-columns: 1fr;
+                }
+          }
+        </style> 
+    </head>
+    <body>
+        <div class="container">
+            <div class="box box1">Box 1</div>
+            <div class="box box2">Box 2</div>
+            <div class="box box3">Box 3</div>
+        </div>
+    </body>
+</html>

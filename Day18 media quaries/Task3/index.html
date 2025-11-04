@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Orientation Background</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 20px;
+                font-family: Arial, sans-serif;
+                background-color: white;
+            }
+            /*landscape orientation*/
+            @media (orientation: landscape){
+                body{
+                    background-color: green;
+                }
+            }
+            /*portrait orientation*/
+            @media (orientation: portrait){
+                body{
+                    background-color: purple;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Orientation-Based Background</h1>
+        <p>Rotate your device or resize your browser to see the Background color change:</p>
+        <ul>
+            <li><strong>Landscape:</strong> Green</li>
+            <li><strong>Portrait:</strong> Purple</li>
+        </ul>
+    </body>
+</html>
