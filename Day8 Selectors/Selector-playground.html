@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>selector playground</title>
+        <style>
+            /* Elenemt Selector */
+            h2 {
+                color: teal;
+
+            }
+            /* Class Selector */
+            .highlight {
+                background-color: yellow;
+                font-weight: bold;
+            }
+            /* ID Selector */
+            #special {
+                color: red;
+                font-size: 22px;
+
+            }
+            /* Group Selector */
+            h3,p {
+                font-family: Arial,sans-serif;
+            }
+            /* Descendant Selector */
+            .container p {
+                color:green ;
+            }
+            /* Child Selector */
+            ul>li {
+                color: blue;
+            }
+            /* Attribute Selector */
+            input[type="text"] {
+                border: 2px solid orange;
+            }
+            /* Pseudo-Class Selector */
+            a:hover {
+                color:hotpink;
+            }
+            /* Universal Selector */
+            * {
+                margin: 5px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1> CSS Selector Playground</h1>
+
+        <h2>Element Selector</h2>
+        <p>This paragraph is styled using a <strong>group selector</strong>.</p>
+        <p class="highlight">This paragraph uses a <strong>class selector</strong>.</p>
+        <p id="special">This paragraph uses an <strong>ID selector</strong>.</p>
+        <div class="container">
+            <p>This is a descendant of .container</p>
+            <span><p>This is a nested descendant</p></span>
+            </div>
+            <ui>
+                <li>This is a direct child of ul </li>
+                <div>
+                    <li>This is NOT a direct child of ul</li>
+                </div>
+            </ui>
+            <input type="text" placeholder="Styled by attribute selector">
+            <input type="password" placeholder="Not styled">
+            <p>Hover over this <a href="#">link</a> to see the pseudo=class effect.</p>
+    </body>
+</html>

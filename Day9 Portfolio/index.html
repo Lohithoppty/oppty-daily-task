@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stlyesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div><strong>MyLogo</strong></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <a href="#blog">Blog</a>
+      <a href="#faq">FAQ</a>
+      
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="profile.jpg" alt="Profile Photo" />
+      <p>Hello! I'm a passionate web developer with a love for clean design and semantic code.</p>
+      <dl>
+        <dt>Location</dt>
+        <dd>Mexico,North America</dd>
+        <dt>Experience</dt>
+        <dd>3+ Years</dd>
+        <dt>Specialty</dt>
+        <dd>Front-End Development</dd>
+      </dl>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <table>
+        <tr>
+          <th>Project</th>
+          <th>Description</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Portfolio Site</td>
+          <td>Personal branding website</td>
+          <td>2023</td>
+        </tr>
+        <tr>
+          <td>Blog Platform</td>
+          <td>Simple blogging system</td>
+          <td>2024</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>HTML</p>
+      <progress value="90" max="100"></progress>
+      <p>CSS</p>
+      <meter value="80" max="100"></meter>
+      <p>JavaScript</p>
+      <progress value="70" max="100"></progress>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <figure>
+        <picture>
+          <source srcset="https://themewagon.github.io/picto/" media="(min-width: 600px)">
+          <img src="gallery1.png.jpg" alt="Gallery Image">
+          <img src="gallery2.png" alt="Gallery Image">
+          <img src="gallery3.png" alt="Gallery Image">
+          <img src="gallery4.jpg" alt="Gallery Image">
+        </picture>
+        <figcaption>Project Showcase</figcaption>
+      </figure>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label>Name:</label>
+        <input type="text" name="name" required />
+        <label>Email:</label>
+        <input type="email" name="email" required />
+        <label>Phone:</label>
+        <input type="tel" name="phone" />
+        <label>Message:</label>
+        <textarea name="message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <section id="blog">
+      <h2>Blog</h2>
+      <article>
+        <h3>Why I Love Web Development</h3>
+        <p>Web development allows me to bring ideas to life and solve real-world problems.</p>
+      </article>
+      <aside>
+        <h4>Tip of the Day</h4>
+        <p>Use semantic HTML for better accessibility and SEO.</p>
+      </aside>
+    </section>
+
+    <section id="faq">
+      <h2>FAQ</h2>
+      <details>
+        <summary>What services do you offer?</summary>
+        <p>I offer front-end development, UI/UX design, and website optimization.</p>
+      </details>
+      <details>
+        <summary>Do you work remotely?</summary>
+        <p>Yes, I work with clients globally via remote collaboration.</p>
+      </details>
+    </section>
+>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025  Portfolio</p>
+    <p>Address: Mexico, North America</p>
+    <p>Last updated: <time datetime="2025-10-07">October 7, 2025</time></p>
+  </footer>
+
+</body>
+</html>
