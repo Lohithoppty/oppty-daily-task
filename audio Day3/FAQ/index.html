@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <title>Interactive FAQ Page</title>
+        <style>
+            body{
+                background-color: aliceblue;
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            .faq{
+                margin-bottom: 10px;
+            }
+            template{
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Frequently Asked Questions</h1>
+        <!--FAQ section with details & summary-->
+        <div class="faq">
+            <details>
+                <summary>What is HTML?</summary>
+                <p>HTML stands for Hyper Text Markup Language.
+                    It is used to create Web Pages and Web Applications.</p>
+                    <time datetime="2025-10-17">Last updated: October 17, 2025</time>
+            </details>
+        </div>
+        <div class="faq">
+            <details>
+                <summary>How do I learn HTML?</summary>
+                <p>You can start by watching tutorials and practicing with simple projects.</p>
+                 <time datetime="2025-10-17">Last updated: October 17, 2025</time>
+            </details>
+        </div>
+        <!--Embedded Youtube Video-->
+        <h2>Watch: Learn HTML Bascis</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-QuK8taGLCs?si=EPHd0biS1Ndcn1s8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen 
+             title="Learn HTML Bascis" frameborder="0" allowfullscreen>
+      </iframe>
+      <!--Hidden Template section-->
+      <template id="faq-tamplate">
+        <div class="faq">
+            <details>
+                <summary>New FAQ Question</summary>
+                <p>New FAQ Answer</p>
+                <time datetime="2025-10-17">Last updated: October 17, 2025</time>
+            </details>
+        </div>
+      </template>
+      <!--Example JS to clone template-->
+      <script>
+        function addFAQ() {
+            const template=document.getElementById('faq-template');
+            const clone=template.content.cloneNode(true);
+            document.body.appendChild(clone);
+        }
+        //Example usage: addFAQ();// Uncomment to test adding a new FAQ
+      </script>
+    </body>
+</html>
