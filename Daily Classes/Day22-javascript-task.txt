@@ -1,0 +1,6 @@
+Task:
+Assing the variable with different data type.
+Assign the variable and call the value in the console.
+Assign the variable and display the value in the HTML DOC (Browser). 
+
+
