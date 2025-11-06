@@ -1,6 +1,6 @@
 //  Assign variables with different data types
 let word = "Hello, JavaScript!"; //String
-let age = 22;                  //Number
+const age = 22;                  //Number
 let myBoolean = false;               //Boolean True/False
 let hobbies = ["Movies", "Music", "Coding"];  //Array
 let  car = {              //Object
