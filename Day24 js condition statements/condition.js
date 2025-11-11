@@ -2,7 +2,7 @@
 // Even or Odd: Write a program to check if a number is even or odd.
 console.log("Even or Odd:");
 
-let number = 7;              // Change Number to see Output:Is a Even number or Odd number.
+let number = 6;              // Change Number to see Output:Is a Even number or Odd number.
 console.log("Taken-Number:", number);
     if(number % 2 == 0) {
           console.log(number + "Is a even Number.");
@@ -18,7 +18,7 @@ console.log("Taken-Number:", number);
      o	“Senior” if 60+*/
 
 console.log("Age Validator:");
- let age = 10;               // Change Age to see Output: Age Validator.
+ let age;               // Change Age to see Output: Age Validator.
 console.log("Taken-Age:", age);     
   if(age < 13){
             console.log("Is a Child");  
@@ -43,7 +43,7 @@ console.log("Taken-Age:", age);
         Below 45	      Fail*/
 
 console.log("Grade Calculator:");
-let marks = 78;                   // change marks to see Output: Grade changing.
+let marks= 101;                   // change marks to see Output: Grade changing.
 console.log("Taken-Marks:", marks);
 
 if(marks >=90 && marks <=100){
@@ -66,7 +66,7 @@ if(marks >=90 && marks <=100){
 console.log("Largest Of Three Numbers:");
 let a=10;
 console.log("A-Value:", a);
-let b=20;
+let b=50;
 console.log("B-Value:", b);    // change A,B,C values to see Output: Largest number among them.
 let c=30;
 console.log("C-Value:", c);
@@ -84,7 +84,7 @@ console.log("C-Value:", c);
 // Leap Year Checker: Check whether a given year is a leap year.
 console.log("Leap Year Checker:");
 
-let year= 2000;                   // change year to see Output: is a leap year or not.
+let year= 2001;                   // change year to see Output: is a leap year or not.
 console.log("Taken-Year:", year);
  
  if ((year % 4 == 0 && year % 100 !== 0) || (year % 400 == 0)) {
