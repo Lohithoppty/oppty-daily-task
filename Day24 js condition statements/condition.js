@@ -43,7 +43,7 @@ console.log("Taken-Age:", age);
         Below 45	      Fail*/
 
 console.log("Grade Calculator:");
-let marks= 101;                   // change marks to see Output: Grade changing.
+let marks= 10;                   // change marks to see Output: Grade changing.
 console.log("Taken-Marks:", marks);
 
 if(marks >=90 && marks <=100){
@@ -84,7 +84,7 @@ console.log("C-Value:", c);
 // Leap Year Checker: Check whether a given year is a leap year.
 console.log("Leap Year Checker:");
 
-let year= 2001;                   // change year to see Output: is a leap year or not.
+let year= 2000;                   // change year to see Output: is a leap year or not.
 console.log("Taken-Year:", year);
  
  if ((year % 4 == 0 && year % 100 !== 0) || (year % 400 == 0)) {
@@ -92,3 +92,26 @@ console.log("Taken-Year:", year);
             } else {
             console.log(year + " is not a leap year");
             }
+
+// Another Format for leap year
+
+ // Leap Year
+            // Year divisible by 4
+            // Year not divisible by 100
+            // Unless it is also divisible by 400
+
+           /* let year = 3400;
+
+            if(year % 4 === 0){
+                if(year % 100 === 0){
+                    if(year % 400 === 0){
+                        console.log(year+ " is a Leap Year" );
+                    }else{
+                        console.log(year+ " is Not a Leap Year");
+                    }
+                } else{
+                    console.log(year+ " is a Leap Year");
+                }
+            } else{
+                console.log(year+ " is Not a Leap Year");
+            }*/
