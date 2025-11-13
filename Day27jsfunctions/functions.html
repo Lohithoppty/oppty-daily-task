@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UFT-8" />
+    <title>JavaScript Functions</title>
+  </head>
+  <body>
+    <h1>Open your browser console to see the output</h1>
+    <script>
+      // All Arithmetic operation using functions.
+
+      // Addition (+)
+      console.log("                   Addition using Functions:");
+
+      function add(a, b) {
+        return a + b;
+      }
+      let result = add(20, 30);
+      console.log("Total =", result);
+
+      // Subtraction (-)
+      console.log("                  Subtraction Using Functions:");
+
+      function sub(c, d) {
+        return c - d;
+      }
+      let result1 = sub(60, 100);
+      console.log("Total =", result1);
+
+      //Multiplication (*)
+      console.log("                 Multiplication Using Functions:");
+
+      function multi(e, f) {
+        return e * f;
+      }
+      let result2 = multi(5, 5);
+      console.log("Total =", result2);
+
+      //Exponentiation (**)
+      console.log("                 Exponentiation Using Functions:");
+
+      function expo(g, h) {
+        return g ** h;
+      }
+      let result3 = expo(4, 2);
+      console.log("Total =", result3);
+
+      //Division (/)
+      console.log("                   Division Using Functions:");
+
+      function div(i, j) {
+        return i / j;
+      }
+      let result4 = div(100, 50);
+      console.log("Total =", result4);
+
+      //Modulus (Remainder)(%)
+      console.log("                  Modulus(Remainder) Using Functions:");
+
+      function mod(k, l) {
+        return k % l;
+      }
+      let result5 = mod(80, 160);
+      console.log("Total =", result5);
+
+      //Increment (++)
+      console.log("                  Increment Using Functions:");
+
+      function inc(m) {
+        m++;
+        return m;
+      }
+      let result6 = inc(7);
+      console.log("Total =", result6);
+
+      //Decrement (--)
+      console.log("                 Decrement Using Functions:");
+
+      function dec(n) {
+        n--;
+        return n;
+      }
+      let result7 = dec(7);
+      console.log("Total =", result7);
+
+      /*Calculate total cart value
+              o	Hint:parameter we need to pass array [199, 299, 499]
+              o	Discount (Ex:10%)*/
+
+      console.log("                  Calculate Total Cart Value:");
+
+      function add(x, y, z) {
+        return x + y + z;
+      }
+      let results = add(199, 299, 499);
+      console.log("Before-Discount:$", results);
+
+      let discount = (results / 100) * 40;
+      let totalamount = results - discount;
+      console.log("After-Discount:$", discount);
+      console.log("Final-Amount:$", totalamount);
+
+      //Convert Celsius – Fahrenheit
+
+      console.log("                 Convert Celsius To Fahrenheit:");
+
+      function celsiusTofahrenheit(celsius) {
+        fahrenheit = (celsius * 9) / 5 + 32;
+        return fahrenheit;
+      }
+      function fahrenheitTocelsius(fahrenheit) {
+        celsius = ((fahrenheit - 32) * 5) / 9;
+        return celsius;
+      }
+
+      console.log("Celsius To Fahrenheit =", celsiusTofahrenheit(32));
+
+      console.log("Fahrenheit To Celsius =", fahrenheitTocelsius(98));
+    </script>
+  </body>
+</html>
