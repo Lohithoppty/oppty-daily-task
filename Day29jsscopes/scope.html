@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UFT-8" />
+    <title>JS-Scopes</title>
+  </head>
+  <body>
+    <h1>Open Your Browser Console To See The Output:</h1>
+    <script>
+      //1.Remove duplicates from the array. ex: [1,2,3,2,4,3,5]
+
+      console.log("            Remove Duplicates From The Array:");
+
+      let array = [1, 2, 3, 2, 4, 3, 5];
+      console.log("Taken-Array:", array);
+
+      let UniqueArray = [...new Set(array)];
+
+      console.log("After Removing Duplicates:",UniqueArray);
+
+      //2.Find the longest word. Ex: [“apple”, “banana”, “grapes”, “Watermelon”].
+
+      console.log("              Find the longest word:");
+
+      let fruits = ["apple", "banana", "grapes", "watermelon"];
+      console.log("Taken-Words:", fruits);
+
+      let largest = "";
+      for (fruit of fruits) {
+        if (fruit.length > largest.length) {
+          largest = fruit;
+        }
+      }
+      console.log("Longest-Word:", largest);
+
+      //3.Convert string to array. Ex: “JavaScript is fun”.
+      
+      console.log("               Convert String To Array:");
+
+      let string = "javascript is fun";
+      console.log("String-Value:", string);
+
+      let arr = string.split(" ");
+      console.log("Array-Value:", arr);
+    </script>
+  </body>
+</html>
