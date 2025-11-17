@@ -11,18 +11,18 @@
 
       console.log("            Remove Duplicates From The Array:");
 
-      let array = [1, 2, 3, 2, 4, 3, 5];
-      console.log("Taken-Array:", array);
+        let array= [1,2,3,2,4,3,5];
+        let nums = array.filter((a, index) => { 
+            return array.indexOf(a) === index; 
+        });
 
-      let UniqueArray = [...new Set(array)];
-
-      console.log("After Removing Duplicates:",UniqueArray);
+      console.log("After Removing Duplicates:", nums);
 
       //2.Find the longest word. Ex: [“apple”, “banana”, “grapes”, “Watermelon”].
 
       console.log("              Find the longest word:");
 
-      let fruits = ["apple", "banana", "grapes", "watermelon"];
+      let fruits = ["apple", "banana", "grapes", "watermelon",];
       console.log("Taken-Words:", fruits);
 
       let largest = "";
