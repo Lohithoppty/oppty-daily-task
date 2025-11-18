@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <title>Day 31 Tasks</title>
+        <style>
+          body{
+                text-align: center;
+                background-color: lightgray;       
+            }            
+    #increase {
+        padding: 20px;
+        font-size: 24px;
+        background-color:lightskyblue;
+        border-radius: 6px;
+        border: none;
+    }
+
+    #increase:hover{
+        background-color: lawngreen;
+    }
+
+    #decrease {
+        padding: 20px;
+        font-size:24px;
+        background-color: yellow;
+        border-radius: 6px;
+        border: none;
+    }
+    
+    #decrease:hover{
+        background-color: orangered;
+        
+
+    }
+
+    h2{
+        font-size: 30px;
+    }
+</style>
+</head>
+<body>
+
+ <!--2.Change the Image on click.-->
+<h2>Click On Image To change:</h2>
+
+<img id="myImg" src="./image/image.png" alt="image" width="600"><br><br><br><br>
+
+
+<!--3.Make a counter using 2 buttons (+(Increase the value), - (decrease the value))-->
+<h1> Click On The Buttons To Increase Or Decrease Counter Value:</h1><br><br>
+
+<button id="increase"><strong>Increase + </strong></button>&nbsp;&nbsp;&nbsp;
+<button id="decrease"><strong>Decrease - </strong></button><br>
+
+<h2>Counter: <span id="value">0</span> </h2>
+    <script>
+
+    //2.Change the Image on click.
+
+          const box = document.getElementById('myImg');
+             box.addEventListener('click', function() {
+                box.src="image/image2.png";
+        });
+     
+
+
+        
+    //3.Make a counter using 2 buttons (+(Increase the value), - (decrease the value))
+    let value = 0;
+
+    document.getElementById("increase").addEventListener("click",function(){
+        value++;
+
+        document.getElementById("value").textContent = value;
+    });
+
+    document.getElementById("decrease").addEventListener("click",function(){
+        value--;
+        document.getElementById("value").textContent = value;
+    });
+
+     </script>    
+  </body>
+</html>

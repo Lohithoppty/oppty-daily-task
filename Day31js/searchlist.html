@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Filter (input typing -> filter list items)</title>
+    <style>
+      body {
+        background-color: lightgray;
+      }
+      h1 {
+        text-align: center;
+      }
+      #searchInput {
+        margin-left: 300px;
+        padding: 15px;
+        font-size: 20px;
+        border-color: black;
+      }
+
+      #itemList {
+        margin-left: 300px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Search Filter (input typing to filter list items)</h1>
+    <input type="text" id="searchInput" placeholder="Search items...." />
+
+    <ul id="itemList">
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Mango</li>
+      <li>Orange</li>
+      <li>Grapes</li>
+      <li>Pineapple</li>
+      <li>watermelon</li>
+    </ul>
+    <script>
+      //5.Search Filter (input typing -> filter list items).
+
+      const input = document.getElementById("searchInput");
+      const list = document
+        .getElementById("itemList")
+        .getElementsByTagName("li");
+
+      input.addEventListener("keyup", function () {
+        let value = input.value.toLowerCase();
+
+        for (let i = 0; i < list.length; i++) {
+          let text = list[i].textContent.toLowerCase();
+          list[i].style.display = text.includes(value) ? "" : "none";
+        }
+      });
+    </script>
+  </body>
+</html>
