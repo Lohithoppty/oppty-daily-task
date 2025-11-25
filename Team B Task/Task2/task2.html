@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <title>Javascript Task:2</title>
+        <style>
+            body{
+                background-color: rgb(236, 234, 234);
+                margin: 20px;
+        
+            }
+            .container{
+                margin-top: 20px;
+            }
+            .list{
+                padding-left: 10px;
+                margin-bottom: 10px;
+            }
+          
+        </style>
+    </head>
+    <body>
+        <h1>Price Filter </h1>
+        <div class="container">
+            <h2>Original Prices:</h2>
+             <div id="original" class="list"></div>
+
+             <h2>Expensive Prices (grater than 100):</h2>
+             <div id="expensive" class="list"></div>
+        </div>
+
+        <script>
+
+            let prices = [15.99, 120.50, 8.75, 200.00, 35.20];
+
+            let expensive = [];
+ 
+            for(let i = 0; i < prices.length; i++){
+                if(prices[i] > 100){
+                    expensive.push(prices[i]);
+                }
+             }
+            
+            document.getElementById('original').innerText = prices.join(', ');
+            document.getElementById('expensive').innerText = expensive.join(', ');
+
+       </script>
+    </body>
+</html>
