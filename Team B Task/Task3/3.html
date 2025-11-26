@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <title>Task:3</title>
+        <style>
+            body{
+                background-color: gray;
+                text-align: center;
+                margin-top: 50px;
+                transition: background-color 0.5s ease;
+            }
+            h1{
+                color: orange;
+            }
+            #message{
+                margin-top: 20px;
+                font-size: 24px;
+                font-weight: bold;
+            }
+            button{
+                margin: 10px;
+                padding: 10px 20px;
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+            button:hover{
+                background-color: olive;
+                color: orangered;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+    
+     <h1>Click on the button to see background change</h1>
+    
+     <button onclick="setMood('happy')">Happy</button>
+     <button onclick="setMood('sad')">Sad</button>
+     <button onclick="setMood('angry')">Angry</button>
+     <button onclick="setMood('sleepy')">Sleepy</button>
+     <div id="message"></div>
+
+     <script>
+        function setMood(mood){
+            const message = document.getElementById("message");
+            switch (mood) {
+                case "happy":
+                   document.body.style.backgroundColor = "yellow";
+                   message.textContent = "I am felling Great! 😊";
+                   break;
+                case "sad":
+                    document.body.style.backgroundColor = "blue"; 
+                    message.textContent = "I am feeling down today. 😢";
+                    break;
+                case "angry": 
+                    document.body.style.backgroundColor = "red";
+                    message.textContent = "I am frustrated! 😡";
+                    break;
+                case "sleepy":
+                    document.body.style.backgroundColor = "#4B0082";
+                    message.textContent = "I need a nap. 😴";
+                    break;          
+            }
+        }
+     </script>
+    </body>
+</html>
