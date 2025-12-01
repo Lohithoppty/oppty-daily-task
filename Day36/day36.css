@@ -1,6 +1,5 @@
 body{
     font-family:  "Marcellus", "Roboto", sans-serif;
-    /* letter-spacing: 0.03rem; */
    
 }
 
@@ -72,4 +71,50 @@ body{
 }
 .content4{
     padding: 66px 0px;
+}
+.logos img {
+    width: 150px;
+    display: flex;
+    gap: 30px;
+}
+
+.Sign button{
+    width: 800px;  
+    background-color: #111;
+    color: white;
+    font-size: 25px;  
+}
+
+.maily{
+    width: 800px;  
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+        
+}
+
+.insta-image {
+    display: flex; 
+}
+
+.p-2{
+    width: 100%;
+}
+.logos-para{
+    color: #8f8f8f;
+ 
+}
+.footer {
+    display: flex;
+}
+
+.copy{
+    margin-left: 350px;
+    color: #8f8f8f;
+}
+
+.help{
+    list-style: none;
+    text-transform: uppercase;
 }

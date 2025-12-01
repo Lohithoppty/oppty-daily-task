@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day38 Task</title>
+</head>
+<body>
+    <h1>Auto Logout after 30sec, before that 25 sec you need to show warning</h1>
+    <p id="warning" style="color:red; font-size:20px; display:none;">
+     You will be logged out in 10 seconds!</p>
+<script>
+//1.Auto Logout after 30sec, before that 25 sec you need to show warning.
+
+let logoutTime = 10;
+let warningTime = 5; 
+
+let timer = setInterval(() => {
+
+    logoutTime--;
+
+    if (logoutTime === (10 - warningTime)) {
+        document.getElementById("warning").style.display = "block";
+    }
+
+    if (logoutTime === 0) {
+        clearInterval(timer);
+        alert("Logged out automatically!");
+        window.location.href = "logout.html"; 
+    }
+
+}, 1000);
+
+</script>
+
+</body>
+</html>
