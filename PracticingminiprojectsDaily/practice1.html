@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice-1 Day-1</title>
+    <style>
+      header {
+        text-align: center;
+        background: #4caf50;
+        padding: 30px 40px;
+      }
+      h1{
+        font-size: 40px;
+        color: white;
+      }
+      header p{
+        font-size: 18px;
+        color: white;
+      }
+      nav {
+        text-align: center;
+        background-color: rgb(48, 47, 47);
+        padding: 20px 30px;
+      }
+      nav a{
+        text-decoration: none;
+        color: white;
+        padding: 35px ;
+        font-size: bold;  
+      }
+      nav a:active{
+        color: orangered;
+      }
+      h2{
+      color: #007bff; 
+      font-size: 30px;
+      margin-bottom: 15px; 
+       }
+      section{
+        padding: 25px;
+        max-width: 900px;
+        border-radius:8px;
+        margin: 20px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.6);  
+        background-color:#ffffff;
+      }
+       p{
+        color: #968e8e;
+       }
+
+       table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+      
+      
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome To Greeksforgreeks TechCon 2025</h1>
+      <p>The Ultimite Technology and Programming Conference</p>
+    </header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#speakers">Speakers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+      <h2>About The Event</h2>
+      <p>
+        GeeksforGeeks TechCon 2025 brings together leading minds in programming,
+        tech, and innovation. Join us for a day of<br>insightful talks, hands-on
+        workshops, and an opportunity to network with fellow geeks and
+        professionals from all around the<br>world.
+      </p>
+    </section>
+    <section id="schedule">
+        <h2>Event Schedule</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Session</th>
+                    <th>Contest</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>9:00 AM</td>
+                    <td>Opening Keynote</td>
+                    <td>GreeksforGreeks Coding Platform</td>
+                </tr>
+                <tr>
+                    <td>10:30 AM</td>
+                    <td>Understanding AI and Machine Learning</td>
+                    <td>Mr.Arvind Kumar</td>
+                </tr>
+                <tr>
+                    <td>1:00 PM</td>
+                    <td>Lunch Break</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>2:00 PM</td>
+                    <td>Exploring The Future of Cloud Computing</td>
+                    <td>Ms.Neha Gupta</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="speakers">
+        <h2>Meet The Speakers</h2>
+        <ul>
+            <li><strong>Dr.Radhika Sharma:</strong>AI Expert and Researcher</li>
+            <li><strong>Mr.Arvind Kumar:</strong>Senior Data Scientist at TechWave</li>
+            <li><strong>Ms.Neha Gupta:</strong>Cloud Computing Specialist at CloudTech</li>
+            <li><strong>Mr.Sandeep Reddy:</strong>Full Stack Developer and Open-Source Contributor</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+  </body>
+</html>
