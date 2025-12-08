@@ -2,9 +2,6 @@
 body{
     font-family: Verdana,Tahoma, sans-serif;
 }
-.bg{
-    background-color: #470477;
-}
 header{
     display: flex;
     background-color: #470477;
@@ -50,7 +47,8 @@ li{
     padding: 0px 30px;    
 }
 #main{
-    margin-top: 150px;
+    margin-top: -41px;
+    padding-top: 120px;
     background-color: #470477;
     
 }
