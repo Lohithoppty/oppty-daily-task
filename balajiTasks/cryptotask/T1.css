@@ -259,6 +259,8 @@ td {
 }
 .img8{
   width: 350px;
+  background-color: #ffffff;
+  border-radius: 5px;
 }
 .img9{
   width: 350px;
@@ -333,7 +335,7 @@ td {
   padding: 40px 0;
   text-align: center;
   color: white;
-  height: 650px;
+  height: 450px;
 }
 .footer-table2 {
   border-collapse: collapse;
@@ -352,10 +354,10 @@ td {
 }
 .footer-td2 {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 100;
   color: white;
   padding: 10px;
-  line-height: 4.0;
+  line-height: 2.0;
   text-align: left;
   border: none; 
 }
