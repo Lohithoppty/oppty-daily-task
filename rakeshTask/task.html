@@ -6,46 +6,59 @@
     <title>To-do List</title>
     <style>
       body {
-        background-color: lightcyan;
+        background-color: black;
       }
-      #list,
       h2 {
-        margin-left: 300px;
-        font-size: 30px;
+        margin-top: 10px;
+        margin-left: 560px;
+        font-size: 50px;
+        color: olivedrab;
       }
       #task {
-        margin-left: 300px;
+        background-color: rgb(160, 159, 159);
+        color: black;
+        margin-top: 20px;
+        margin-left: 500px;
         padding: 15px;
         font-size: 20px;
-        border-color: black;
+        border:3px solid orange;
+        border-radius: 5px;
+        
       }
       #addbtn {
         padding: 16px 25px;
         font-size: 18px;
+        border: 3px solid orange;
+        border-radius: 5px;
+      }
+      #list{
+        margin-top: 30px;
+        font-size: 26px;
+        margin-left: 450px;
       }
       button {
         padding: 10px;
-        font-size: 16px;
+        font-size: 18px;
+        border-radius: 5px;
+        border: 3px solid orange;
       }
     </style>
   </head>
   <body>
-    <h2>Build a small to-do list (add/delete)</h2>
+    <h2> To-Do List </h2>
 
     <input id="task" placeholder="Enter task" />
     <button onclick="addTask()" id="addbtn">Add</button>
 
     <ul id="list"></ul>
     <script>
-      //1.Build a small to-do list (add/delete).
 
       function addTask() {
         let task = document.getElementById("task").value;
         if (task === "") return;
 
         let li = document.createElement("li");
-        li.innerHTML =
-          task +
+        li.innerHTML = task +
           " &nbsp <button onclick='this.parentElement.remove()'>Delete</button>";
         li.style.margin = "8px 0";
         li.style.color = "blue";
