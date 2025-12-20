@@ -1,0 +1,131 @@
+body{
+    /* background: #a4ddf5; */
+    background: linear-gradient(90deg, rgba(164, 221, 245, 1) 50%, rgba(255, 255, 255, 1) 50%);
+    font-family: "Open Sans", sans-serif;
+    /* height: 1200px; */
+}
+#heading{
+    float: right;      
+}
+#heading h1{
+    margin-right: 200px;
+    margin-top: 100px;
+    font-size: 80px;
+    font-weight: 600;
+    color: #a4ddf5;
+    padding-bottom: 0px;
+}
+#heading p{
+    margin-right: 200px;
+    margin-top: -30px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #a4ddf5;
+}
+.head-line{
+    margin-right: 100px;
+    margin-left: -90px;
+    border: none;
+    height: 0.5px;
+    background-color: #a4ddf5;
+}
+#main-1{
+    float: left;
+    margin-left: 70px;
+    margin-top: 300px;
+}
+#main-1 h5{
+     font-size: 22px;
+     font-weight: 400;
+     color: #ffffff;
+     line-height: 0.5;
+}
+#main-2{
+    float: right;
+    margin-top: 300px;
+}
+#main-2 h4{
+    margin-right: 450px;
+    font-size: 30px;
+    color: #a4ddf5;
+}
+#main-2 p{
+    font-size: 20px;
+    color: #868686;
+}
+.txtcolor{
+    font-size: 20px;
+    color: #a4ddf5;
+}
+#main-2-2{
+    float: left;
+    margin-left: 30px;
+    margin-top: 160px;
+}
+#main-3{
+     float: left;
+     margin-top: 800px;
+     margin-left: -700px;
+     padding-left: 20px;
+}
+.box{
+    margin-left: 138px;
+    background-color: rgb(211, 243, 255);
+    padding:20px;  
+}
+.box h2{
+    font-size: 30px;
+    color: lightseagreen;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.box p{
+    font-size: 22px;
+    margin-left: 40px;
+}
+#main-3-2{
+    float: right;
+    padding-top: 260px;
+    padding-right: 67px;
+}
+#main-4{
+    float: right;
+    padding-top: 200px;
+}
+.heading2{
+    font-size: 50px;
+    padding-left: 600px;
+    margin-right: 50px;
+    line-height: 0.9;
+}
+.head-line2{
+    margin-left: 500px;
+    margin-right: 50px;
+    border: none;
+    height: 2.5px;
+    background-color: #000000;
+}
+#main-5{
+    float: left;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.Gap1{
+    padding-right: 20px;
+}
+#main-5-2{
+    float: right;
+    padding-top: 100px;
+    padding-right: 70px;
+}
+.Gap2{
+    padding-right: 20px;
+}
+#main-5-2 p{
+    font-size: 22px;
+    color:#868686;
+}
+.para{
+    margin-top: 60px;
+    margin-left: 50px;
+}
