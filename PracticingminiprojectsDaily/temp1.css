@@ -112,6 +112,7 @@ body{
 }
 .Gap1{
     padding-right: 20px;
+    
 }
 #main-5-2{
     float: right;
@@ -128,4 +129,20 @@ body{
 .para{
     margin-top: 60px;
     margin-left: 50px;
+}
+.Gap1 {
+  width: 200px; 
+  height: 300px;
+  overflow: hidden; /* Clips the image so it stays inside the box */
+}
+
+.Gap1 {
+  width: 280px;
+  height: 400px;
+  /* object-fit: cover; Ensures image fills the container */
+  transition: transform 0.5s ease;
+}
+
+.Gap1:hover{
+  transform: scale(0.7); /* Image zooms in, but container size stays the same */
 }

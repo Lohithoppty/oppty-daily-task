@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(48, 48, 48);
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 0.5;
+}
+#para p{
+     font-size: 18px;
+     color: #b9b7b7;
+}
+.one{
+    color: purple;
+}
+#img{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -600px;
+}

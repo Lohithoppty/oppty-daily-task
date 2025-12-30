@@ -1,0 +1,35 @@
+.image-container {
+  position: relative; /* Establishes positioning context */
+  display: inline-block; /* Or block, depending on layout */
+  overflow: hidden; /* Hides card until it moves into view */
+  cursor: pointer;
+}
+
+.image-container img {
+  display: block;
+  width: 100%; /* Makes image responsive */
+  transition: transform 0.3s ease; /* Optional: Slight zoom on hover */
+}
+
+.card {
+  position: absolute;
+  bottom: 0; /* Starts at the bottom */
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: white;
+  padding: 15px;
+  box-sizing: border-box;
+  opacity: 0; /* Hidden by default */
+  transform: translateY(100%); /* Start fully below the container */
+  transition: opacity 0.4s ease, transform 0.4s ease; /* Smooth transition */
+}
+
+.image-container:hover .card {
+  opacity: 1; /* Show the card */
+  transform: translateY(0); /* Move to its actual position */
+}
+
+.image-container:hover img {
+  transform: scale(1.05); /* Optional: Slight zoom on image */
+}
