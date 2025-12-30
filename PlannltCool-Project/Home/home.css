@@ -279,13 +279,11 @@ a:hover{
 }
 .card-07{
     display: flex;
-    /* border: 2px solid #000000; */
     justify-content: space-around;
     margin-right: 150px;    
 }
 .card-07-2{
     display: flex;
-    /* border: 2px solid #000000; */
     justify-content: space-around;
     margin-right: 150px; 
     background-color: #E9EEF5;
@@ -322,6 +320,226 @@ a:hover{
     background-color: #000000;
     color: #ffffff; 
 }
+#section-7{
+    background-color: #E9EEF5;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-7{
+    width: 1200px;
+    position: relative;
+    overflow: hidden;
+}
+.slides-wrapper {
+    display: flex;
+    width: 300%; 
+    animation: autoSlide 15s infinite ease-in-out; 
+}
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+.left-section {
+    flex-basis: 200px;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.left-section h1 {
+    font-size: 60px;
+    font-weight: 300;
+    color: #2c2c2c;
+    margin: 0;
+    text-align: left;
+    line-height: 1.1;
+    font-family: "Playfair Display SC", serif;
+}
+.image-section img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 30px;
+}
+.text-section {
+    flex-basis: 100%;
+    max-width: 400px;
+}
+.count-slide{
+    letter-spacing: 2.5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.testimonial-text {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    margin-left: 20px;
+  
+}
+.client-name {
+    color: #BB98C6;
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    margin-left: 20px;
+}
+@keyframes autoSlide {
+    0%, 30% { transform: translateX(0%); }       
+    33%, 63% { transform: translateX(-33.33%); } 
+    66%, 96% { transform: translateX(-66.66%); } 
+    100% { transform: translateX(0%); }          
+}
+#section-8{
+  background-image:url(/PlannltCool-Project/Assets/parallax-image.jpg);
+  background-attachment: fixed; /* Keeps both the overlay and image static */
+  background-size: cover;       /* Ensures the image fills the container */
+  background-position: center; 
+  width: 1350px;
+  height: 600px; 
+  margin-top: -50px;              
+}
+.overlay-heading{
+   font-family: "Playfair Display SC", serif;
+   font-size: 60px;
+   font-weight: 200;
+   color: #ffffff;
+   text-align: center;
+   padding-top: 250px; 
+}
+#section-9{
+    background-color: #ffffff;
+    padding-top: 100px;
+}
+.content-9{
+    text-align: center;
+}
+.sec-9-heading{
+   font-family: "Playfair Display SC", serif;
+   font-size: 70px;
+   font-weight: 100;
+   color: #3f3f3f;
+   margin-bottom: 10px;
+}
+.sec-9-para{
+   font-family: "Roboto", sans-serif;
+   font-size: 18px;
+   color: rgb(143, 142, 142);
+   line-height: 1.5;
+   font-weight: 400; 
+   padding-bottom: 50px; 
+}
+.sec-9-cards{
+    display: flex;
+    padding-left: 140px;
+}
+.card-09{
+    margin-right: 30px;
+}
+.c9-img{
+    width: 350px;
+}
+.c9-heading{
+    font-size: 24px;
+    font-weight: 200;
+    color: #242323;
+    font-family: "Roboto", sans-serif;
+}
+.c9-para{
+    font-size: 18px;
+    color: #979595;
+    font-weight: 200;
+    font-family: "Roboto", sans-serif;
+}
+.icon{
+    font-size: 24px;
+    color: #666;
+    letter-spacing: 3.0px;
+}
+.icon:hover{
+    font-size: 24px;
+    color: #BB98C6;
+}
+#section-10{
+    background-image: url(/PlannltCool-Project/Assets/section-background-2-1536x674.jpg);
+   margin-top: 100px;
+}
+.content-10{
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-bottom: 100px;
+}
+.sec10-left-heading{
+   font-family: "Playfair Display SC", serif;
+   font-size: 70px;
+   font-weight: 100;
+   color: #3f3f3f;
+   margin-bottom: 10px;
+}
+.sec-10-para{
+   font-size: 18px;
+    color: #979595;
+    font-weight: 200;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;  
+}
+.button-10{
+    padding: 20px 50px;
+    background-color: #BB98C6;
+    color: #ffffff;
+    border: none;
+    padding-top: 20px;
+    letter-spacing: 2.0px;
+}
+.button-10:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+.sec-10-img{
+    float: right;
+    width: 555px;
+    margin-right: 40px;
+    margin-top: -410px;
+}
+.sec-10-left{
+    margin-top: -50px;
+}
+.guide-cards{
+    float: right;
+    display: flex;
+    margin-right: 25px;
+    margin-top: -310px;
+}
+.guide-card{
+    text-align: center;
+    background-color: #E6E7EB;
+    margin-right: 10px;
+    padding: 0px 15px;
+}
+.cr-para{
+    font-family: "Playfair Display SC", serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #3f3f3f;
+}
+.crd-p{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #979595; 
+}
+
+/* footer-sec*/
 #footer{
     background-color: #E9EEF5;
     padding-top: 150px;
