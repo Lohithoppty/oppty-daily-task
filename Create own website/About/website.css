@@ -5,6 +5,31 @@ body{
     padding: 0;
 }
 .nav-bar{
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.nav-bar-center{
+  list-style: none;
+  display: flex;
+  font-size: 12px;
+}
+.nav-bar-center li{
+   padding: 30px 290px;
+   background-color: orange;
+}
+a {
+   text-decoration: none;
+   color: #8f3232;
+   font-weight: 600; 
+   font-size: 18px;
+}
+a:hover{
+  color: #243b55;
+}
+.nav-bar{
     background-color: grey;
     padding: 20px;
     text-align: center;
