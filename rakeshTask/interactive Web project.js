@@ -8,7 +8,6 @@ const messageInput = document.getElementById("message");
 const errors = document.querySelectorAll(".error");
 const successMsg = document.querySelector(".success");
 
-/* ===== REGEX PATTERNS ===== */
 const nameRegex = /^[A-Za-z\s]{3,}$/;
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 const passwordRegex =
@@ -21,32 +20,29 @@ form.addEventListener("submit", function (e) {
   errors.forEach(err => err.textContent = "");
   successMsg.textContent = "";
 
-  /* ===== NAME VALIDATION ===== */
+
   if (!nameRegex.test(nameInput.value.trim())) {
     errors[0].textContent = "Enter a valid name (min 3 letters)";
     isValid = false;
   }
 
-  /* ===== EMAIL VALIDATION ===== */
+
   if (!emailRegex.test(emailInput.value.trim())) {
     errors[1].textContent = "Enter a valid email address";
     isValid = false;
   }
 
-  /* ===== PASSWORD VALIDATION ===== */
   if (!passwordRegex.test(passwordInput.value)) {
     errors[2].textContent =
       "Password must contain 8 chars, upper, lower, number & special char";
     isValid = false;
   }
 
-  /* ===== MESSAGE VALIDATION ===== */
   if (messageInput.value.trim().length < 10) {
     errors[3].textContent = "Message must be at least 10 characters";
     isValid = false;
   }
 
-  /* ===== SUCCESS ===== */
   if (isValid) {
     successMsg.textContent = "Form submitted successfully ✔";
     successMsg.style.color = "green";
@@ -54,8 +50,6 @@ form.addEventListener("submit", function (e) {
     form.reset();
   }
 });
-
-
 
 const addBtn = document.getElementById("ADD");
 const input = document.getElementById("Tdlist");
@@ -76,17 +70,14 @@ function addTask() {
 
   alertBox.textContent = "";
 
-  // create list item
   const li = document.createElement("li");
 
-  // task text
   const span = document.createElement("span");
   span.textContent = text;
 
-  // remove button
   const removeBtn = document.createElement("button");
   removeBtn.textContent = "REMOVE";
-  removeBtn.id = "Remove"; // using your existing CSS
+  removeBtn.id = "Remove"; 
 
   removeBtn.onclick = function () {
     li.remove();
@@ -100,16 +91,12 @@ function addTask() {
   input.value = "";
 }
 
-// clear all tasks
 clearAllBtn.addEventListener("click", function () {
   listDiv.innerHTML = "";
 });
 
 
-// timer
-/* ================= TIMER 1 ================= */
-
-let timeLeft1 = 0;   // total seconds
+let timeLeft1 = 0;   
 let interval1 = null;
 let paused1 = false;
 
@@ -160,10 +147,7 @@ updateDisplay1();
 startTimer1();
 
 
-
-/* ================= TIMER 2 ================= */
-
-let timeLeft2 = 0;   // total seconds
+let timeLeft2 = 0;   
 let interval2 = null;
 let paused2 = false;
 
@@ -212,10 +196,6 @@ resetBtn2.addEventListener("click", () => {
 
 updateDisplay2();
 startTimer2();
-
-
-//map
-
 
 function openMap() {
  
