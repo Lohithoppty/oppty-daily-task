@@ -29,15 +29,6 @@ a {
 a:hover{
   color: #243b55;
 }
-.nav-bar{
-    background-color: grey;
-    padding: 20px;
-    text-align: center;
-}
-.nav-word{
-    background-color: orange;
-    color: #8f3232;
-}
 .rigth-side{
     float: right;
     margin-right: 50px;
@@ -120,6 +111,9 @@ a:hover{
   padding:25px;
   background:grey;
   margin-top: 2700px;
+}
+.footer p{
+    color: #ffffff;
 }
 .Copyright{
     color: #243b55;
