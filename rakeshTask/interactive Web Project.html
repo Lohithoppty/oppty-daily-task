@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intractive Web Project</title>
-    <link rel="stylesheet" href="./interactive Web project.css">    
+    <title>intractiveWeb</title>
+    <link rel="stylesheet" href="./interactive Web project.css">
 </head>
+
 <body>
     <header>
         <h1 class="HeaderH1">Intractive Web Project</h1>
@@ -14,17 +16,21 @@
             <li><a href="#">Dynamic</a></li>
             <li><a href="#">Timer</a></li>
             <li><a href="#">ContactForm</a></li>
+
         </nav>
     </header>
     <main>
         <div class="AbutHead">
             <h2>About This Project</h2>
         </div>
-    <section id="conetent">
-      <section class="Left">
+
+        <section id="conetent">
+            <section class="Left">
                 <p>This is a sample interactive web page built using HTML and JavaScript. It features dynamic content
                     manipulation,<br> form validation, and local storage.</p>
+
                 <h3>Features Demonstrated</h3>
+
                 <ul>
                     <li>DOM manipulation</li>
                     <li>Form validation</li>
@@ -32,6 +38,7 @@
                     <li>Dynamic content-updates</li>
                     <li>Local storage</li>
                 </ul>
+
                 <div class="todoList">
                     <h2>Intractive To-Do List</h2>
                 </div>
@@ -49,6 +56,8 @@
                 <div class="Clear">
                     <button class="clearButton">Clear ALL Tasks </button>
                 </div>
+
+
                 <div class="todoList AutoTimer">
                     <h2>Auto-Updating Timer</h2>
                 </div>
@@ -60,17 +69,20 @@
                         <button id="reset" class="TDLButton">Reset Timer</button>
                     </div>
                 </div>
+
+
                 <div class="todoList AutoTimer">
                     <h2>Feat Hesions & Videos</h2>
                 </div>
-                 <div class="MapFrame LeftMap">
+
+                <div class="MapFrame LeftMap">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086887835004!2d-122.4194154846816!3d37.77492927975998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5b0b7f5f%3A0x7d5d0b7c6c7e4f9a!2sSan%20Francisco!5e0!3m2!1sen!2sin!4v1700000000000"
                         width="100%" height="300" style="border:0; border-radius:8px;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
 
-                    <button class="Toggle" id="toggle">Toggle Map</button>
+                    <button class="Toggle" >Toggle Map</button>
                 </div>
             </section>
 
@@ -82,21 +94,21 @@
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
 
-                    <button class="Toggle" id="toggle">Toggle Map</button>
+                    <button class="Toggle" id="toggle" onclick="openMap()">Toggle Map</button>
                 </section>
 
                 <section id="TimeCounter">
-                    <div class="todoList AutoTimer">
-                        <h2>Auto-Updating Timer</h2>
+                     <div class="todoList AutoTimer">
+                    <h2>Auto-Updating Timer</h2>
+                </div>
+                <div class="Timer">
+                    <p>This counter auto-update every Second</p>
+                    <span class="text">Time elapsed :</span> <span class="text" id="Time2">00:00:08</span>
+                    <div class="TimeButtons">
+                        <button id="puse2" class="TDLButton">Puser Timer</button>
+                        <button id="reset2" class="TDLButton">Reset Timer</button>
                     </div>
-                    <div class="Timer">
-                        <p>This counter auto-update every Second</p>
-                        <span class="text">Time elapsed :</span> <span class="text" id="Time">00:00:08</span>
-                        <div class="TimeButtons">
-                            <button id="puse" class="TDLButton">Puser Timer</button>
-                            <button id="reset" class="TDLButton">Reset Timer</button>
-                        </div>
-                    </div>
+                </div>
                 </section>
                 <section id="FormSection">
                     <div class="contact-box">
@@ -105,15 +117,15 @@
 
                         <form id="contactForm">
                             <label>Name:</label>
-                            <input type="text" id="name" placeholder="Name..." class="FormIput">
+                            <input type="text" id="name" placeholder="Name..." class="FormIput"><br>
                             <small class="error"></small>
                               <br>
                             <label>Email:</label>
-                            <input type="text" id="email" placeholder="Email...." class="FormIput">
+                            <input type="text" id="email" placeholder="Email...." class="FormIput"><br>
                             <small class="error"></small>
                             <br>
                             <label>Password:</label>
-                            <input type="password" id="password" placeholder="password..." class="PasswordInput">
+                            <input type="password" id="password" placeholder="password..." class="PasswordInput"><br>
                             <small class="error"></small>
                             <br>
                             <label>Message:</label>
@@ -137,13 +149,21 @@
                     </div>
 
                 </section>
-           </section>
+
+
+
+            </section>
         </section>
     </main>
-   <footer>
+
+
+    <footer>
         <p> <b>&copy; 2026 Interactive web Project</b> | Your Email <a href="#">example@gmail.com</a></p>
-        <div class="foot"> <a href="#">Privoci Policy</a>  |  <a href="#">Terms of cervices</a> </div>
+
+        <div class="foot"> <a href="#">Privoci Policy</a> | <a href="#">Terms of cervices</a> </div>
     </footer>
-  <script src="JavaScript.js"></script>
+
+    <script src="./interactive Web project.js"></script>
 </body>
+
 </html>
