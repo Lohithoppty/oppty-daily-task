@@ -1,0 +1,179 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.HeaderH1 {
+   font-size: 30px;
+   text-align: center;
+   padding: 15px;
+}
+nav {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 0;
+   border-top: 2px solid #bbb;
+   border-bottom: 2px solid #bbb;
+   padding: 20px;
+   border-radius: 10px;
+   gap: 60px;
+}
+nav li {
+   list-style: none;
+}
+#conetent {
+   display: flex;
+   padding: 30px 50px;
+}
+.AbutHead {
+   padding: 5px 50px;
+   border-bottom: 2px solid #bbb;
+   font-size: 20px;
+}
+.Left li {
+   margin: 10px;
+}
+.Left,.Right {
+   flex: 1;
+}
+.Left p {
+   font-size: 16px;
+   line-height: 1.7em;
+}
+.Left h3 {
+   margin: 40px 0px;
+}
+.MapFrame {
+   padding: 20px;
+   width: 80%;
+   margin-left: 20px;
+}
+.Toggle {
+   border-color: rgb(89, 172, 240);
+   border-radius: 8px;
+   padding: 20px 60px;
+   text-align: center;
+   width: 100%;
+   margin-top: 30px;
+   font-size: 18px;
+}
+.todoList {
+   border-bottom: 2px solid #bbb;
+   width: 70%;
+}
+#Tdlist {
+   width: 60%;
+   padding: 10px;
+   margin-top: 40px;
+   margin-right: 40px;
+}
+.TDLButton {
+   padding: 10px 30px;
+   color: #fff;
+   background-color:  rgb(62, 62, 199);
+   border: none;
+   border-radius: 5px;
+}
+.Clear {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 40px;
+}
+.clearButton {
+   padding: 10px 30px;
+   background-color:  rgb(62, 62, 199);
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   border-radius: 5px;
+}
+.list li {
+   margin: 15px;
+}
+#Remove {
+   margin-left: 310px;
+   padding: 10px 20px;
+   color: #fff;
+   background-color:  rgb(62, 62, 199);
+   border: none;
+   border-radius: 5px;
+}
+.AutoTimer {
+   margin-top: 50px;
+}
+.alert {
+   background-color: rgb(233, 222, 195);
+   color: black;
+   border-radius: 5px;
+}
+.text {
+   font-size: 28px;
+   font-weight: 600;
+}
+.TimeButtons {
+   margin-top: 30px;
+   display: flex;
+   align-items: center;
+   gap: 50px;
+   width: 70%;
+}
+.LeftMap {
+   margin-left: 0px;
+   padding: 0px;
+   margin-top: 40px;
+}
+#FormSection{
+   margin-top: 60px;
+}
+.error {
+   color: #c0392b;
+   font-size: 13px;
+   min-height: 16px;
+}
+.success {
+   color: green;
+   margin-top: 10px;
+   font-size: 13px;
+}
+.contact-box{
+   padding-left: 30px;
+}
+.FormIput{
+   padding: 10px;
+   margin: 20px 0px;
+   width: 50%;
+}
+textarea{
+   width: 50%;
+   height: 90px;
+   margin-top: 20px;
+}
+.PasswordInput{
+   padding: 10px;
+   margin: 20px 0px;
+   width: 45%;           
+}
+#check{
+   margin-left: 20px;     
+   margin-top: 40px;
+}
+.clear-btn{
+   margin-top: 40px;
+   padding: 10px 20px;
+   color: #fff;
+   background-color: rgb(62, 62, 199);
+   border: none;
+   border-radius: 5px;
+}
+footer{
+    text-align: center;
+    border-top: 2px solid #bbb;
+    padding: 30px;
+}
+.foot{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}

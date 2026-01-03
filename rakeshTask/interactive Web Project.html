@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intractive Web Project</title>
+    <link rel="stylesheet" href="./interactive Web project.css">    
+</head>
+<body>
+    <header>
+        <h1 class="HeaderH1">Intractive Web Project</h1>
+        <nav>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Dynamic</a></li>
+            <li><a href="#">Timer</a></li>
+            <li><a href="#">ContactForm</a></li>
+        </nav>
+    </header>
+    <main>
+        <div class="AbutHead">
+            <h2>About This Project</h2>
+        </div>
+    <section id="conetent">
+      <section class="Left">
+                <p>This is a sample interactive web page built using HTML and JavaScript. It features dynamic content
+                    manipulation,<br> form validation, and local storage.</p>
+                <h3>Features Demonstrated</h3>
+                <ul>
+                    <li>DOM manipulation</li>
+                    <li>Form validation</li>
+                    <li>Event-handling</li>
+                    <li>Dynamic content-updates</li>
+                    <li>Local storage</li>
+                </ul>
+                <div class="todoList">
+                    <h2>Intractive To-Do List</h2>
+                </div>
+                <div class="TODO">
+
+                    <input type="text" placeholder="New Task....." id="Tdlist">
+                    <button class="TDLButton" id="ADD">ADD</button>
+
+                    <div class="list">
+
+                    </div>
+                    <div class="alert" id="alert"></div>
+                </div>
+
+                <div class="Clear">
+                    <button class="clearButton">Clear ALL Tasks </button>
+                </div>
+                <div class="todoList AutoTimer">
+                    <h2>Auto-Updating Timer</h2>
+                </div>
+                <div class="Timer">
+                    <p>This counter auto-update every Second</p>
+                    <span class="text">Time elapsed :</span> <span class="text" id="Time">00:00:08</span>
+                    <div class="TimeButtons">
+                        <button id="puse" class="TDLButton">Puser Timer</button>
+                        <button id="reset" class="TDLButton">Reset Timer</button>
+                    </div>
+                </div>
+                <div class="todoList AutoTimer">
+                    <h2>Feat Hesions & Videos</h2>
+                </div>
+                 <div class="MapFrame LeftMap">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086887835004!2d-122.4194154846816!3d37.77492927975998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5b0b7f5f%3A0x7d5d0b7c6c7e4f9a!2sSan%20Francisco!5e0!3m2!1sen!2sin!4v1700000000000"
+                        width="100%" height="300" style="border:0; border-radius:8px;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                    <button class="Toggle" id="toggle">Toggle Map</button>
+                </div>
+            </section>
+
+            <section class="Right">
+                <section class="MapFrame">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086887835004!2d-122.4194154846816!3d37.77492927975998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5b0b7f5f%3A0x7d5d0b7c6c7e4f9a!2sSan%20Francisco!5e0!3m2!1sen!2sin!4v1700000000000"
+                        width="100%" height="300" style="border:0; border-radius:8px;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                    <button class="Toggle" id="toggle">Toggle Map</button>
+                </section>
+
+                <section id="TimeCounter">
+                    <div class="todoList AutoTimer">
+                        <h2>Auto-Updating Timer</h2>
+                    </div>
+                    <div class="Timer">
+                        <p>This counter auto-update every Second</p>
+                        <span class="text">Time elapsed :</span> <span class="text" id="Time">00:00:08</span>
+                        <div class="TimeButtons">
+                            <button id="puse" class="TDLButton">Puser Timer</button>
+                            <button id="reset" class="TDLButton">Reset Timer</button>
+                        </div>
+                    </div>
+                </section>
+                <section id="FormSection">
+                    <div class="contact-box">
+                        <h3>Contact Form</h3>
+                        <p class="sub-text">Send me a message:</p>
+
+                        <form id="contactForm">
+                            <label>Name:</label>
+                            <input type="text" id="name" placeholder="Name..." class="FormIput">
+                            <small class="error"></small>
+                              <br>
+                            <label>Email:</label>
+                            <input type="text" id="email" placeholder="Email...." class="FormIput">
+                            <small class="error"></small>
+                            <br>
+                            <label>Password:</label>
+                            <input type="password" id="password" placeholder="password..." class="PasswordInput">
+                            <small class="error"></small>
+                            <br>
+                            <label>Message:</label>
+                            <textarea id="message" rows="4"  cols="19" ></textarea >
+                             <br>
+
+                             <label>Subscribe to news letter? </label>
+                            <input type="checkbox" id="check" > Yes</input>
+                            <input type="checkbox" id="check" > No</input>
+                            <br>
+                             
+                             <label>Preffered Contact: </label>
+                            <input type="checkbox" id="check" > Phone</input>
+                            <input type="checkbox" id="check" > mail</input>
+                            <br>
+                             
+                            <button type="submit" class="clear-btn">Clear Data</button>
+
+                            <p class="success"></p>
+                        </form>
+                    </div>
+
+                </section>
+           </section>
+        </section>
+    </main>
+   <footer>
+        <p> <b>&copy; 2026 Interactive web Project</b> | Your Email <a href="#">example@gmail.com</a></p>
+        <div class="foot"> <a href="#">Privoci Policy</a>  |  <a href="#">Terms of cervices</a> </div>
+    </footer>
+  <script src="JavaScript.js"></script>
+</body>
+</html>
