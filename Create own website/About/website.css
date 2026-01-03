@@ -1,0 +1,106 @@
+body{
+    background: linear-gradient(90deg, #141e30 50%, #243b55 50%);
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    background-color: grey;
+    padding: 20px;
+    text-align: center;
+}
+.nav-word{
+    background-color: orange;
+    color: #8f3232;
+}
+.rigth-side{
+    float: right;
+    margin-right: 50px;
+
+}
+.car-img-01{
+     width: 600px;
+     margin-top: 100px;
+}
+.left-side{
+    float: left;
+    margin-left: 150px;
+    background-color: #aca9a9;
+    border-radius: 8px;
+    width: 500px;
+    padding: 20px 20px;
+    margin-left: 100px;
+    margin-right: 650px;
+    margin-top: 100px;
+    
+}
+.para-left{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.left-side-1{
+    float: left;
+    margin-left: 150px;
+    background-color: #aca9a9;
+    border-radius: 8px;
+    width: 500px;
+    padding: 20px 20px;
+    margin-left: 100px;
+    margin-right: 650px;
+    margin-top: 100px;
+    
+}
+.para-left-1{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.rigth-side-1{
+    float: right;
+}
+.car-img-02{
+     width: 600px;
+     margin-top: 100px;
+}
+.rigth-side-3{
+    float: right;
+}
+.car-img-03{
+     width: 600px;
+     margin-top: 100px;
+}
+.left-side-3{
+    float: left;
+    margin-left: 150px;
+    background-color: #aca9a9;
+    border-radius: 8px;
+    width: 500px;
+    padding: 20px 20px;
+    margin-left: 100px;
+    margin-right: 650px;
+    margin-top: 100px;
+    
+}
+.para-left-3{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}      
+.footer{  
+  text-align:center;
+  padding:25px;
+  background:grey;
+  margin-top: 2700px;
+}
+.Copyright{
+    color: #243b55;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Copyright:hover{
+    color:#ffcc00;
+}
