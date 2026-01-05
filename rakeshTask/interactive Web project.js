@@ -199,7 +199,7 @@ startTimer2();
 
 function openMap() {
  
-  const address = "Kodumurthi Yellanur";
+  const address = "Hyderabad";
 
 
   const mapURL =
